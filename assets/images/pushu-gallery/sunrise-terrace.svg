@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title>晨光天台</title>
+  <desc>迎接第一道光</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AA6C39" />
+      <stop offset="100%" stop-color="#F5E3D3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad)" rx="36" />
+  <circle cx="220" cy="200" r="120" fill="rgba(255,255,255,0.28)" />
+  <circle cx="950" cy="220" r="160" fill="rgba(255,255,255,0.18)" />
+  <rect x="120" y="380" width="960" height="260" rx="40" fill="rgba(255,255,255,0.18)" />
+  <text x="140" y="500" fill="#1c1c1c" font-size="72" font-family="Noto Sans TC, 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-weight="600">晨光天台</text>
+  <text x="140" y="580" fill="#1c1c1c" font-size="36" font-family="Noto Sans TC, 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-weight="400">迎接第一道光</text>
+</svg>

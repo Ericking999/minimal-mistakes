@@ -2,3 +2,28 @@
 layout: home
 author_profile: true
 ---
+
+<section class="page__content" aria-labelledby="gallery-title">
+  <header>
+    <h2 id="gallery-title">代表性照片圖輯</h2>
+    <p>十張展現「城市感官療癒」精髓的圖像，適合呈現在首頁或品牌導覽中。</p>
+  </header>
+  <div class="feature__wrapper">
+    {% assign gallery = site.data.gallery %}
+    {% for item in gallery %}
+    <article class="feature__item">
+      <div class="feature__media">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.alt | escape }}" loading="lazy">
+      </div>
+      <div class="feature__content">
+        <h3 class="feature__title">{{ item.title }}</h3>
+        <p class="feature__excerpt">{{ item.description }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <p class="text-center">
+    <a class="btn btn--primary" href="{{ '/album/' | relative_url }}">查看完整相簿</a>
+  </p>
+</section>

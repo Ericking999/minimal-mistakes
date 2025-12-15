@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "首頁"
+    url: /
+  - title: "品牌核心"
+    url: /2024/01/01/urban-sensory-retreat.html
+  - title: "香氛體驗"
+    url: /2024/01/06/soupure-collab.html
+  - title: "設計語言"
+    url: /2024/01/05/local-culture.html
+  - title: "照片相簿"
+    url: /album/
